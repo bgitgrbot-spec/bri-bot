@@ -1,0 +1,17 @@
+{
+  "name": "bri-bot",
+  "version": "1.0.0",
+  "description": "OCR + Scraper Telegram bot for BRI Device Locator",
+  "main": "index.js",
+  "scripts": {
+    "start:ocr": "node ocr/index.js",
+    "start:scraper": "node scraper/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.4",
+    "form-data": "^4.0.0",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "puppeteer": "^22.0.0"
+  }
+}
